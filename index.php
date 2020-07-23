@@ -1,3 +1,3 @@
-<h1>Hello World</h1>
+<?php
 
-<?php echo "ECHO PHP STRING"; ?>
+  echo "TEST";
