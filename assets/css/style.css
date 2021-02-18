@@ -1,0 +1,93 @@
+html,body 
+{
+  height:100%;
+  scroll-behavior: smooth;
+}
+
+*
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar 
+{ 
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;
+  background: rgba(185, 185, 185, 0) !important;  
+  font-family: 'Roboto', sans-serif;
+}
+
+.affix 
+{
+  padding-top: 1.3em !important;
+  padding-bottom: 1.3em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;
+  background: rgba(249, 168, 40, 1) !important;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+.nav-item > .nav-link
+{
+  background: rgb(46, 56, 63);/*-webkit-linear-gradient(rgba(89,42,125,1) 35%, rgba(72,86,151,1) 43%, rgba(53,136,182,1) 53%);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0;
+  transition: transform .2s;
+}
+
+.nav-link.active
+{
+  background-color: #07617D !important;
+  transform: scale(1.1);
+}
+.nav-link:hover
+{
+  transform: scale(1.1);
+  background-color: #07617D;
+}
+.nav-item
+{
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+}
+.intro
+{
+  max-height: 100vh;
+  height: 100vh;
+}
+
+h1
+{
+    color: #07617D;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.progress-bar
+{
+  background-color: #07617D !important;
+}
+
+section
+{
+    height: 100vh !important;
+    display: flex; 
+    align-items: center;
+}
+
+.badge
+{
+    background-color: #07617D;
+    font-size: 1em !important;
+}
