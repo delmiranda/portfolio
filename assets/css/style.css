@@ -325,12 +325,10 @@ section {
 }
 /* PORTFOLIO SECTIONS END */
 
-/* CONTACT */
-/* overwrite bootstrap form control */
+/* CONTACT SECTION */
 .contact-form {
   width: 100%;
 }
-
 .highlight {
   color: rgb(46, 56, 63);
   font-weight: 600;
@@ -339,6 +337,7 @@ section {
   margin-bottom: 12px;
 }
 
+/* overwrite bootstrap form control */
 .form-control {
   background-color: transparent;
   color: #000;

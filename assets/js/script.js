@@ -43,6 +43,7 @@ function animateSkillsBar() {
     }, 250 * index);
   });
 }
+animateSkillsBar();
 
 // Initialize AOS
 AOS.init({
@@ -57,7 +58,11 @@ var myFullpage = new fullpage("#fullpage", {
   scrollingSpeed: 1100,
   lazyLoad: true,
   responsiveWidth: 1100,
-
+  afterResponsive: function (isResponsive) {
+    setTimeout(function () {
+      animateSkillsBar();
+    }, 1300);
+  },
   onLeave: function () {
     // $('.section [data-aos]').removeClass("aos-animate");
   },
